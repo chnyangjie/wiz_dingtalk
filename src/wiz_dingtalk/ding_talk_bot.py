@@ -9,7 +9,7 @@ from wiz_utils.string_utils import StringUtils
 
 import hmac
 
-from src.wiz_dingtalk.message import Message
+from wiz_dingtalk.message import Message
 
 
 class DingTalkBot(object):
