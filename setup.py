@@ -9,7 +9,7 @@ with open(path.join(here, 'README.md'), encoding='utf-8') as f:
 setup(
     name='wiz-dingtalk',
 
-    version='1.0.2',
+    version='2.0.0',
 
     description='wiz-dingtalk',
 
@@ -43,7 +43,7 @@ setup(
     package_dir={'wiz_dingtalk': 'src/wiz_dingtalk'},
     packages=find_packages(where='src'),
     python_requires='>=3.6, <4',
-    install_requires=['requests', 'wiz-utils'],
+    install_requires=['requests', 'wiz-utils', 'wiz-message==2.0.0'],
     py_modules=['wiz_dingtalk'],
     project_urls={
         'Bug Reports': 'https://github.com/chnyangjie/wiz_dingtalk/issues',
